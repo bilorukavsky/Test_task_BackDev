@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"net/http"
 
@@ -33,7 +32,6 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	UserName := requestBody.Username
-	fmt.Println(UserName)
 
 	accessTokenString, err := generateAccessToken(UserName)
 	if err != nil {
