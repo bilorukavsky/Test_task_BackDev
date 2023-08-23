@@ -1,7 +1,7 @@
 # Test task BackDev
 
 ## Описание
-Проук "Test task BackDev" представляет собой часть сервиса аутентификации, в котором представлены два REST маршрута. Первый маршрут выдает пару Access, Refresh токенов для пользователя с идентификатором указанным в параметре запроса. Второй маршрут выполняет Refresh операцию на пару Access, Refresh токенов.
+Проeк "Test task BackDev" представляет собой часть сервиса аутентификации, в котором представлены два REST маршрута. Первый маршрут выдает пару Access, Refresh токенов для пользователя с идентификатором указанным в параметре запроса. Второй маршрут выполняет Refresh операцию на пару Access, Refresh токенов.
 
 ## Как использовать
 1. Запуск сервера:
@@ -30,7 +30,6 @@
         ```json
         {
           "access_token":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTI3ODAzNDgsInN1YiI6IjEifQ.TQow1HO7ts1dA4jm4OabNPXT8v5Ex7ERezwgtTB3FvjcToT9UJ02_XdfdiS1kRKm-1tb6eIJS3mQ1ioinKgGqg",
-
           "refresh_token":"yMNNk1niPswfq-CwaotE8H6L1cRWTBWDy1hdXG9GKjA"
         }
         ```
@@ -58,7 +57,6 @@
     ```json
     {
         "access_token":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTI3ODAzNDgsInN1YiI6IjEifQ.TQow1HO7ts1dA4jm4OabNPXT8v5Ex7ERezwgtTB3FvjcToT9UJ02_XdfdiS1kRKm-1tb6eIJS3mQ1ioinKgGqg",
-
         "refresh_token":"yMNNk1niPswfq-CwaotE8H6L1cRWTBWDy1hdXG9GKjA"
     }
     ```
@@ -72,7 +70,7 @@
     ```json
     {
     "username": "1",
-
+    "refresh_token":"yMNNk1niPswfq-CwaotE8H6L1cRWTBWDy1hdXG9GKjA"
     }
     ```
     Ответ:
@@ -83,7 +81,6 @@
     ```json
     {
         "access_token":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTI3ODAzNDgsInN1YiI6IjEifQ.TQow1HO7ts1dA4jm4OabNPXT8v5Ex7ERezwgtTB3FvjcToT9UJ02_XdfdiS1kRKm-1tf62IJS3mQ1ioidKtGqg",
-
         "refresh_token":"yMNNk1niPswfq-CwaotE8H6L1cRWTBWDy1hdXG9GKjA"
     }
     ```
